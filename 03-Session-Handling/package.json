@@ -2,13 +2,13 @@
   "private": true,
   "scripts": {
     "build": "webpack --optimize-minimize",
-    "start": "webpack-dev-server --hot --inline --port 3000 --content-base public/",
+    "start": "webpack-dev-server --hot --inline --host 0.0.0.0 --port 3000 --content-base public/",
     "sync": "npm install; npm prune",
     "watch": "webpack --progress --watch"
   },
   "dependencies": {
     "@cycle/dom": "^17.1.0",
-    "@cycle/isolate": "~2.1",
+    "@cycle/isolate": "~2.1.0",
     "@cycle/xstream-run": "^4.2.0",
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
