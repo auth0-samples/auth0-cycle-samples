@@ -2,7 +2,7 @@
     "private": true,
     "scripts": {
         "build": "webpack --optimize-minimize",
-        "start": "webpack-dev-server --hot --inline --content-base public/",
+        "start": "webpack-dev-server --hot --inline --port 3000 --content-base public/",
         "sync": "npm install; npm prune",
         "watch": "webpack --progress --watch"
     },
