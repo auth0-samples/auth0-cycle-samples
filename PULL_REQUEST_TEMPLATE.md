@@ -1,5 +1,3 @@
-PULL_REQUEST_TEMPLATE
-
 # Pull Request Report
 
 Please include a summary of the change you made with relevant motivation and context why such change has been made. Filling sections below will allow us to get your changes reviewed and merged easier. If you feel like certain section is not applicable, feel free to delete it. Thanks for co-operation! 🙏🏼
