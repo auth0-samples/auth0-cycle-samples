@@ -1,8 +1,13 @@
 # Auth0 CycleJS Starter Seed
+<img src="https://img.shields.io/badge/community-driven-brightgreen.svg"/> <br>
 
 This sample demonstrates how to create a basic Cycle application.
 
+This repo is supported and maintained by Community Developers, not Auth0. For more information about different support levels check https://auth0.com/docs/support/matrix .
+
 ## Getting Started
+
+### Installation
 
 Clone the repo or download it from the Cycle quickstart page in Auth0's documentation.
 
@@ -11,7 +16,7 @@ cd 00-Starter-Seed
 npm install
 ```
 
-## Run the Application
+#### Run the Application
 
 ```bash
 npm start
@@ -19,14 +24,14 @@ npm start
 
 The application will be served at `http://localhost:3000`.
 
-### Useful commands
+#### Useful commands
 
 - `npm run build` to build the application once for production (minimized).
 - `npm start` to start the application dev-server on port 3000.
 - `npm run sync` to synchronize NPM dependencies with package.json.
 - `npm run watch` to build the application and watch for changes.
 
-## Run the Application With Docker
+#### Run the Application With Docker
 
 In order to run the example with docker you need to have `docker` installed.
 
@@ -34,30 +39,59 @@ You also need to set the environment variables as explained [previously](#set-th
 
 Execute in command line `sh exec.sh` to run the Docker in Linux, or `.\exec.ps1` to run the Docker in Windows.
 
+## Contribute
+
+Feel like contributing to this repo? We're glad to hear that! Before you start contributing please visit our [Contributing Guideline](https://github.com/auth0-community/getting-started/blob/master/CONTRIBUTION.md).
+
+Here you can also find the [PR template](https://github.com/auth0-community/auth0-cycle-samples/blob/master/PULL_REQUEST_TEMPLATE.md) to fill once creating a PR. It will automatically appear once you open a pull request.
+
+## Issues Reporting
+
+Spotted a bug or any other kind of issue? We're just humans and we're always waiting for constructive feedback! Check our section on how to [report issues](https://github.com/auth0-community/getting-started/blob/master/CONTRIBUTION.md#issues)!
+
+Here you can also find the [Issue template](https://github.com/auth0-community/auth0-cycle-samples/blob/master/ISSUE_TEMPLATE.md) to fill once opening a new issue. It will automatically appear once you create an issue.
+
+## Repo Community
+
+Feel like PRs and issues are not enough? Want to dive into further discussion about the tool? We created topics for each Auth0 Community repo so that you can join discussion on stack available on our repos. Here it is for this one: [auth0-cycle-samples](https://community.auth0.com/t/auth0-community-oss-auth0-cycle-samples/15984)
+
+<a href="https://community.auth0.com/">
+<img src="/Assets/join_auth0_community_badge.png"/>
+</a>
+
+## License
+
+This project is licensed under the MIT license. See the [LICENSE](https://github.com/auth0-community/auth0-cycle-samples/blob/master/LICENSE) file for more info.
+
 ## What is Auth0?
 
 Auth0 helps you to:
 
-* Add authentication with [multiple authentication sources](https://docs.auth0.com/identityproviders), either social like **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce, among others**, or enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS or any SAML Identity Provider**.
-* Add authentication through more traditional **[username/password databases](https://docs.auth0.com/mysql-connection-tutorial)**.
-* Add support for **[linking different user accounts](https://docs.auth0.com/link-accounts)** with the same user.
-* Support for generating signed [Json Web Tokens](https://docs.auth0.com/jwt) to call your APIs and **flow the user identity** securely.
-* Analytics of how, when and where users are logging in.
-* Pull data from other sources and add it to the user profile, through [JavaScript rules](https://docs.auth0.com/rules).
+* Add authentication with [multiple authentication sources](https://docs.auth0.com/identityproviders), either social like
+* Google
+* Facebook
+* Microsoft
+* Linkedin
+* GitHub
+* Twitter
+* Box
+* Salesforce
+* etc.
+
+**or** enterprise identity systems like:
+* Windows Azure AD
+* Google Apps
+* Active Directory
+* ADFS
+* Any SAML Identity Provider
+
+* Add authentication through more traditional [username/password databases](https://docs.auth0.com/mysql-connection-tutorial)
+* Add support for [linking different user accounts](https://docs.auth0.com/link-accounts) with the same user
+* Support for generating signed [JSON Web Tokens](https://docs.auth0.com/jwt) to call your APIs and create user identity flow securely
+* Analytics of how, when and where users are logging in
+* Pull data from other sources and add it to user profile, through [JavaScript rules](https://docs.auth0.com/rules)
 
 ## Create a free Auth0 account
 
-1. Go to [Auth0](https://auth0.com/signup) and click Sign Up.
-2. Use Google, GitHub or Microsoft Account to login.
-
-## Issue Reporting
-
-If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
-
-## Author
-
-[Auth0](https://auth0.com)
-
-## License
-
-This project is licensed under the MIT license. See the [LICENSE](LICENSE.txt) file for more info.
+* Go to [Auth0 website](https://auth0.com/signup)
+* Hit the **SIGN UP** button in the upper-right corner
