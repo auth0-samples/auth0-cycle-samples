@@ -18,7 +18,7 @@
     "sass-loader": "^6.0.0",
     "style-loader": "~0.13",
     "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.3.0",
+    "webpack-dev-server": "3.1.11",
     "xstream": "^10.2.0"
   }
 }
